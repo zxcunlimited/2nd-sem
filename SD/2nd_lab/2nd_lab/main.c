@@ -10,14 +10,14 @@ int main() {
 
     enqueue(&q, 10); //front -> [10] <- rear
     enqueue(&q, 20); //front -> [10] -> [20] <- rear
-    printf("Dequeue: %.2f\n", dequeue(&q)); // Äîëæíî âûâåñòè 10
-    printf("Dequeue: %.2f\n", dequeue(&q)); // Äîëæíî âûâåñòè 20
+    printf("Dequeue: %.2f\n", dequeue(&q)); // Ã„Ã®Ã«Ã¦Ã­Ã® Ã¢Ã»Ã¢Ã¥Ã±Ã²Ã¨ 10
+    printf("Dequeue: %.2f\n", dequeue(&q)); // Ã„Ã®Ã«Ã¦Ã­Ã® Ã¢Ã»Ã¢Ã¥Ã±Ã²Ã¨ 20
     if (is_queue_empty(&q))
     {
-        printf("stack is empty\n");
+        printf("queue is empty\n");
     }
     else {
-        printf("stack has elements\n");
+        printf("queue has elements\n");
     }
 
     return 0;
